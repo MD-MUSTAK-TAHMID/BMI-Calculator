@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding:0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #595555;
+}
+.main{
+    width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    background: #ffcdcd;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    border-image-slice: 42 42 42 42;
+    border-image-width: 42px 42px 42px 42px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: round round;
+    border-image-source: url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-6.svg");
+    border-style: solid; 
+}
+.main2{
+    display: none;
+}
+input{
+    width: 100%;
+    padding: 8px 15px;
+    border: 1px solid rgb(189, 189, 189);
+    background: transparent;
+    outline: 0;
+}
+.hight , .wight{
+    position: relative;
+}
+p{
+    position: absolute;
+    color: red;
+    left: 15px;
+    top: 103%;
+    font-size: 12px;
+}
+button{
+    background: transparent;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: .4s;
+    border: 2px solid white;
+}
+button:hover{
+    background: #01fd34;
+    color: white;
+}
+.recheck{
+    display: none;
+}
+.result{
+    color: green;
+}
+.Output{
+    color: yellow;
+}
+h1{
+    color:rebeccapurple;
+}
+h4{
+    color:rgb(255, 79, 220)
+}
+h3{
+    color:rgb(86, 73, 255)
+}
